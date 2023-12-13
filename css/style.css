@@ -1,0 +1,9 @@
+.box {
+    display: block;
+    background-color: red;
+    width: 40rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-size: 4.2rem;
+    box-sizing: border-box;
+}

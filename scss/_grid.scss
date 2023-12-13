@@ -1,0 +1,10 @@
+.container {
+  width: 100%;
+  /**somar 30px no max-width por conta dos 15px do padding para o container ficar extamente com 10405px que é o tamanho determinado no layout do Figma*/
+  max-width: 143.5rem;  
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  @media(max-width: 1440px) {
+    max-width: 124.8rem;
+  }
+}

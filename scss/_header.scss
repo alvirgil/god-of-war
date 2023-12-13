@@ -1,0 +1,48 @@
+header {
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    .container {        
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+        }    
+        
+    .platform {
+        display: flex;
+        align-items: center;
+        span {
+            font-size: 1.4rem;
+            font-weight: 600;
+            line-height: 1.5rem;
+        }
+        ul {
+            gap: 0.8rem;
+            display: flex;            
+            margin-left: 1.8rem;
+           li {
+            padding: 0.4rem 0.8rem;
+            border: 1.5px solid #ffffff;
+            font-size: 1.4rem;
+            font-weight: 600;
+            line-height: 1.5rem;         
+           }
+        }
+    }
+    @media(max-width: 560px) {
+        height: 7rem;
+        .sony {
+            display: none;
+        }
+        .logo {
+            max-width: 14rem;
+        }
+        .platform {
+            span {
+                display: none;
+            }
+        }
+    }
+   }
